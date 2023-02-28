@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="js-rest-popup" class="popup">
+        <p>お疲れ様でした</p>
+        <p id="js-total-time"></p>
+        <div class="btn-flex">
+          <button id="js-rest-btn" class="popup-btn" type="button">休憩</button>
+          <button id="js-finish-btn" class="popup-btn" type="button">
+            終了
+          </button>
+        </div>
+      </div>
+
+      <div id="js-restart-popup" class="popup">
+        <p>休憩終了</p>
+        <div class="btn-flex-center">
+          <button id="js-restart-btn" class="popup-btn" type="button">
+            再開
+          </button>
+        </div>
+      </div>
+
+      <div id="js-count-timer" class="count-timer">25:00</div>
+      <p id="js-comment">Click Start</p>
+      <button id="js-start" class="timer-btn start-btn" type="button">
+        Start
+      </button>
+      <button id="js-stop" class="timer-btn stop-btn" type="button">
+        Stop
+      </button>
+      <button id="js-reset" class="timer-btn reset-btn" type="button">
+        Reset
+      </button>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
